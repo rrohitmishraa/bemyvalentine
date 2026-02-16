@@ -180,7 +180,7 @@ export default function Valentine() {
             >
               {!submitted ? (
                 <>
-                  <img src={Heart} className="mx-auto w-16 mb-4" />
+                  <img src={Heart} className="mx-auto w-16 mb-4" alt="" />
 
                   <h1 className="text-3xl font-semibold text-rose-600 mb-2">
                     {activeMode === "CONFIRM"
@@ -204,7 +204,7 @@ export default function Valentine() {
                     </div>
                   </div>
 
-                  <img src={Teddy} className="mx-auto w-40 mb-8" />
+                  <img src={Teddy} className="mx-auto w-40 mb-8" alt="" />
 
                   {/* buttons */}
                   <div className="relative flex items-center justify-center gap-6 h-24">
@@ -276,7 +276,7 @@ export default function Valentine() {
                     ))}
                   </motion.div>
 
-                  <img src={Heart} className="mx-auto w-20 mb-6" />
+                  <img src={Heart} className="mx-auto w-20 mb-6" alt="" />
                   <h1 className="text-4xl font-semibold text-rose-600">
                     {happyMessage}
                   </h1>
